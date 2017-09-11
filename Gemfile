@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.4'
+ruby '2.4.1'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -23,8 +23,10 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 # Gem for Bootstrap
 gem 'bootstrap-sass'
-#ruby gem for jquery and jquery_ujs
+# Ruby gem for jquery and jquery_ujs
 gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
+# For add user, sign-up, and log-in functionality
+gem 'devise'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
