@@ -38,6 +38,8 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
+  # AWS for uploading images to Heroku
+  gem 'aws-sdk', '< 2.0'
 end
 
 group :development do
