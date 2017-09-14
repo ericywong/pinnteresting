@@ -29,6 +29,8 @@ gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 gem 'devise'
 # To attach images onto website (with ImageMagick)
 gem 'paperclip', '~> 4.2'
+# AWS for uploading images to Heroku
+gem 'aws-sdk'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -38,8 +40,6 @@ group :development, :test do
   gem 'selenium-webdriver'
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
-  # AWS for uploading images to Heroku
-  gem 'aws-sdk', '< 2.0'
 end
 
 group :development do
