@@ -31,6 +31,10 @@ gem 'paperclip', '~> 4.2'
 gem 'aws-sdk'
 # For stylizing pins
 gem 'masonry-rails', '~> 0.2.0'
+# To paginate the website
+gem 'will_paginate', '~> 3.0.5'
+# Pagination with bootstrap
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
