@@ -1,6 +1,5 @@
-# One Month Rails
+# Pinnterestting!
 
-This is the pinnteresting sample application for
-[*One Month Rails*](http://onemonthrails.com)
+This is the pinnteresting application after the popular pinterest website.
 
 by [Eric Wong] (https://github.com/ericywong)
